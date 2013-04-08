@@ -18,3 +18,4 @@ print socket.response				# Print results of command to screen
 socket.send('exit\r')				# Send command to exit gracefully
 									# socket.execute('exit') produces EOF error
 socket.close()						# Close connection
+
